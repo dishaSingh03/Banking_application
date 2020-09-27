@@ -1,0 +1,183 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600|Slabo+27px');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+body {
+
+	margin: 0;
+	padding: 0;
+	background: url(images/home.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	background-size: cover;
+	color: white;	
+}
+
+header
+{
+	background: black;
+	color: white;
+	padding: 6px 0px 5px 40px;
+	height: 50px;
+}
+
+header h1
+{
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	font-size: 26px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 6px;
+	padding: 6px 0px 0px 0px ;
+
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	width: 190.5px;
+	height: 50px;
+	background-color: black;
+	opacity: .8;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16.5px;
+	margin-right: 0px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover{
+	background-color: blue;
+	line-height: 40px;
+	width: 150px;
+	height: 40px;
+
+}
+nav ul li ul li{
+	display: none;
+}
+
+nav ul li:hover ul li{
+	display: block;
+}
+
+#nav {
+	font-family:  'Slabo 27px', serif;
+}
+
+.homered{
+ 	background-color: red;
+ 	padding: 15px 45px 22px 40px;
+ 	text-align: center;
+
+}
+
+.divider{
+ 	background-color: red;
+ 	height: 5px;
+ }
+ 
+ .homeblack:hover {
+ 	background-color: red;
+ 	padding: 15px 10px 20px 10px;
+ }
+ 
+ .login-box
+ {
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: PowderBlue;
+	top: 53%;
+	left: 20%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 73px 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.man{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+
+}
+
+.login-box input{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: 	#87CEFA;
+	color: #00f;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+
+.login-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+
+.login-box a{
+	text-decoration: relative;mc
+	font-size: 15px;
+	margin: 1px;
+	color: #87CEFA;
+}
+
+.login-box a:hover
+{
+	color: #39dc79;
+}
